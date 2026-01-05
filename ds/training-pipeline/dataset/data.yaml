@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['sushi-box']
+
+roboflow:
+  workspace: alans-workspace-xpvla
+  project: my-first-project-qdqaj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alans-workspace-xpvla/my-first-project-qdqaj/dataset/2
